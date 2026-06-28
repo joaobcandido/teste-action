@@ -1,0 +1,16 @@
+name: Olá Mundo
+description: Cumprimente alguém e registre a hora
+
+inputs:
+  quem-cumprimentar:
+    description: Quem cumprimentar
+    required: true
+    default: Mundo
+
+outputs:
+  tempo:
+    description: O momento em que te cumprimentamos
+
+runs:
+  using: node20
+  main: dist/index.js
