@@ -11,6 +11,10 @@ outputs:
   tempo:
     description: O momento em que te cumprimentamos
 
+branding:
+  icon: 'activity'
+  color: 'green'
+
 runs:
   using: node20
   main: dist/index.js
