@@ -1,5 +1,5 @@
-name: Olá Mundo
-description: Cumprimente alguém e registre a hora
+name: 'Hello World JavaScript Action'
+description: 'Greet someone and log the time'
 
 inputs:
   quem-cumprimentar:
